@@ -22,15 +22,16 @@ body{
     left: 0;
     transition: .5s;
 }
-@media(max-width:768px){
+@media(max-width:995px){
     .loop{
         grid-auto-columns: calc((100% - (1.5rem * (var(--new-per-view) - 1))) / var(--new-per-view));
     }
 }
 .cards{
     min-width: 100%;
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.68);
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.29); 
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.29);
+
 }
 .box{
     display: table-cell;
